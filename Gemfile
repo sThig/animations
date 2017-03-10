@@ -13,7 +13,6 @@ end
 gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'pg'
 gem "font-awesome-rails"
-gem 'sqlite3'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
@@ -35,6 +34,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :assets do
  gem 'bootstrap-modal-rails'
 end
-
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
